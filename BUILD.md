@@ -16,14 +16,14 @@ good starting point.
 
 3. Install cmake. It is recommended you download and build it from the
 official cmake website, since versions >= 2.6.0 are recommended.
-
+```bash
 	wget http://www.cmake.org/files/v2.6/cmake-2.6.2.tar.gz
 	tar zxvf cmake-2.6.2.tar.gz
 	cd cmake-2.6.2
 	./configure
 	make
 	sudo make install
-
+```
 Now you are ready to build xpwn. It is highly recommended that you build
 out-of-source (that is, the build products are not placed into the same
 folders as the sources). This is much neater and cleaning up is as simple as
